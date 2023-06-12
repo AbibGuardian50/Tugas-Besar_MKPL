@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.houari</groupId>
-    <artifactId>Calculator</artifactId>
-    <version>1.0</version>
+    <artifactId>calculator</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -15,13 +15,14 @@
         <junit-jupiter-params.version>5.9.2</junit-jupiter-params.version>
     </properties>
          
-     <distributionManagement>
+    <distributionManagement>
        <repository>
          <id>github</id>
          <name>GitHub Packages</name>
          <url>https://maven.pkg.github.com/AbibGuardian50/Tugas-Besar_MKPL</url>
         </repository>
   </distributionManagement>
+         
 
     <dependencies>
         <dependency>
@@ -37,4 +38,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+         
+    
 </project>
